@@ -15,8 +15,9 @@ How to Build/Execute
     $ source ${sgx-sdk-install-path}/environment
     ```
 3. Location of files to be sent must be under `/FileIOHash_MaltMat`
-4. Change the IP address of the server, matrix size and file location in `App.cpp` 
-5. Build the project with the prepared Makefile (makes in Hardware Mode, Debug build):
+4. Change the IP address of the server, port, matrix size and file location in `App.cpp` 
+5. Match the IP address and port in `file_client.cpp`
+6. Build the project with the prepared Makefile (makes in Hardware Mode, Debug build):
     ```
     $ make
     ```
