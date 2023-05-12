@@ -3,7 +3,7 @@
 
 Objective of perf_SGX
 ------------------------
-This project aims to evaluate the performance of two operations, namely file I/O with hashing and matrix multiplication, using Intel Software Guard Extensions (SGX) . 
+This project aims to evaluate the performance of two operations, namely Virtual Machine image's integrity check using hashing, and two ways of matrix multiplication, using Intel Software Guard Extensions (SGX) . 
 
 ------------------------------------
 How to Build/Execute
